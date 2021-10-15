@@ -199,10 +199,11 @@ Once you have a route you can start navigation.
 Create a `CompassView` and integrate it into your UI.
 ```swift
 let compassView = CompassView()
-compassView.progressView.borderColor = .white
-compassView.progressView.fillColor = .white
+compassView.screen.arrowColor = .white
 compassView.screen.borderColor = .white
 compassView.screen.textColor = .white
+compassView.progressView.borderColor = .white
+compassView.progressView.fillColor = .white
 ```
 
 Bind your `CompassView` to the `Navigator` for your route.
