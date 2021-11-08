@@ -1,17 +1,24 @@
 # Changelog
 
 ## Summary
+ - 1.3.0 Transparent progress bar background colour
  - 1.2.2 Arrow colour
  - 1.2.1 CLLocationManager fix
  - 1.2.0 Lanscape support
  - 1.1.0 NavigationUI
  - 1.0.0 Routing
 
- ### 1.2.2 Arrow colour
- *Released on 14/10/2021*
+### 1.3.0 Transparent progress bar background colour
+*Released on 08/11/2021*
 
- #### Description
- Adds the ability to change the arrow's colour via the `CompassView.screen.arrowColor` property.
+#### Description
+Removes the `NavigationView.fillBackgroundColor` property. Instead uses a clear background to show whatever is beneath it.
+
+### 1.2.2 Arrow colour
+*Released on 14/10/2021*
+
+#### Description
+Adds the ability to change the arrow's colour via the `CompassView.screen.arrowColor` property.
 
 ### 1.2.1 CLLocationManager fix
 *Released on 20/09/2021*
