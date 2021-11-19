@@ -1,12 +1,21 @@
 # Changelog
 
 ## Summary
+ - 1.4.0 Orientation fix, demo mode, colour improvements
  - 1.3.0 Transparent progress bar background colour
  - 1.2.2 Arrow colour
  - 1.2.1 CLLocationManager fix
  - 1.2.0 Lanscape support
  - 1.1.0 NavigationUI
  - 1.0.0 Routing
+
+### 1.4.0 Orientation fix, demo mode, colour improvements
+*Released on 18/11/2021*
+
+#### Description
+- Fixes orientation when device is in landscape mode
+- Disables arrow rotation when in demo mode
+- Adds property to change junction indicator colour
 
 ### 1.3.0 Transparent progress bar background colour
 *Released on 08/11/2021*

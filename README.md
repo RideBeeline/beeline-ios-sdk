@@ -2,11 +2,11 @@
 
 Beeline iOS SDK for bicycle routing
 
-Latest version: `1.1.0`
+Latest version: `1.4.0`
 
 ## Requirements
 
-- **Xcode 12.0**
+- **Xcode 13.1**
 - **iOS 12+**
 - **Alamofire ~> 5**
 - **RxSwift ~> 6**
@@ -23,14 +23,14 @@ Contact us for credentials tech@beeline.co
 1. Add the following dependencies to your `Cartfile`.
 ```
 # Required
-binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineLocation/BeelineLocation.json" ~> 1.1
-binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineRouting/BeelineRouting.json" ~> 1.1
+binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineLocation/BeelineLocation.json" ~> 1.4
+binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineRouting/BeelineRouting.json" ~> 1.4
 
 # Optional for navigation
-binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineFusion/BeelineFusion.json" ~> 1.1
-binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineNavigation/BeelineNavigation.json" ~> 1.1
-binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineNavigationUI/BeelineNavigationUI.json" ~> 1.1
-binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineOrientation/BeelineOrientation.json" ~> 1.1
+binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineFusion/BeelineFusion.json" ~> 1.4
+binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineNavigation/BeelineNavigation.json" ~> 1.4
+binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineNavigationUI/BeelineNavigationUI.json" ~> 1.4
+binary "https://s3-eu-west-1.amazonaws.com/succeed.likeab.ee/sdk/ios/BeelineOrientation/BeelineOrientation.json" ~> 1.4
 
 # If not already specified
 github "marcbaldwin/Alto" ~> 1.5
@@ -202,6 +202,7 @@ let compassView = CompassView()
 compassView.screen.arrowColor = .white
 compassView.screen.borderColor = .white
 compassView.screen.textColor = .white
+compassView.screen.junctionIndicatorColor = .white
 compassView.progressView.borderColor = .white
 compassView.progressView.fillColor = .white
 ```
