@@ -1,6 +1,7 @@
 # Changelog
 
 ## Summary
+ - 1.5.0 Initial device rotation fix
  - 1.4.0 Orientation fix, demo mode, colour improvements
  - 1.3.0 Transparent progress bar background colour
  - 1.2.2 Arrow colour
@@ -8,6 +9,12 @@
  - 1.2.0 Lanscape support
  - 1.1.0 NavigationUI
  - 1.0.0 Routing
+
+### 1.5.0 Initial device rotation fix
+*Released on 22/11/2021*
+
+#### Description
+Fixes an issue where the initial device rotation was incorrectly assumed to always be portrait up
 
 ### 1.4.0 Orientation fix, demo mode, colour improvements
 *Released on 18/11/2021*
